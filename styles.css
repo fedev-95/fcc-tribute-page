@@ -1,0 +1,85 @@
+:root {
+    --background: #100B23;
+    --text: #CCCEDF;
+    --primary-color: #C25090;
+    --secondary-color: #703C89;
+}
+
+* {
+    box-sizing: border-box;
+    color: var(--text);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+#main {
+    align-items: center;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+#page-title {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+#img-div {
+    align-items: center;
+    background: to right left;
+    background: linear-gradient(45deg, rgba(194,80,144,1) 0%, rgba(112,60,137,1) 100%);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+#image {
+    border-radius: 5px;
+    height: auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+#tribute-info {
+    align-items: center;
+    background: linear-gradient(45deg, rgba(194,80,144,1) 0%, rgba(112,60,137,1) 100%);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+#tribute-items-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    padding-left: 30px;
+}
+
+#footer {
+    text-align: center;
+}
+
+#tribute-link {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+#tribute-link:hover {
+    color: #C7827E;
+    transition: 0.5s;
+}
